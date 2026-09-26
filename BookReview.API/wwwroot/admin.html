@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="sr">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Panel - BookReview</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="/css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+               href="/index.html">
+                BookReview
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="navbarContent">
+
+                <div class="navbar-nav ms-auto"
+                     id="navbarLinks">
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ADMIN -->
+    <main class="container-fluid py-4">
+
+        <div class="row">
+
+
+            <!-- SIDEBAR -->
+            <div class="col-md-3 col-lg-2 mb-4">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <h5 class="mb-3">
+                            Admin Panel
+                        </h5>
+
+
+                        <div class="d-grid gap-2">
+
+                            <button type="button"
+                                    class="btn btn-outline-primary"
+                                    onclick="loadAdminBooks()">
+                                 Books
+                            </button>
+
+
+                            <button type="button"
+                                    class="btn btn-outline-primary"
+                                    onclick="loadAdminAuthors()">
+                                Authors
+                            </button>
+
+
+                            <button type="button"
+                                    class="btn btn-outline-primary"
+                                    onclick="loadAdminCategories()">
+                                 Categories
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+           
+            <div class="col-md-9 col-lg-10">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body">
+
+                        <h2 class="mb-3">
+                            Admin Panel
+                        </h2>
+
+                        <p class="text-muted">
+                            Izaberi sekciju iz menija sa leve strane.
+                        </p>
+
+
+                        <div id="adminContent">
+
+                            <div class="text-center py-5 text-muted">
+
+                                <p>
+                                    Izaberi Books, Authors ili Categories.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="/js/api.js"></script>
+    <script src="/js/admin.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

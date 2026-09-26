@@ -1,0 +1,41 @@
+﻿body {
+    background-color: #f8f9fa;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background-color: #e9ecef;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
+
+.book-cover {
+    height: 300px;
+    object-fit: cover;
+}
+
+.book-card {
+    height: 100%;
+}
+
+    .book-card img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+#booksContainer .card {
+    overflow: hidden;
+}
+
+#favoritesContainer img {
+    height: 250px;
+    object-fit: cover;
+}
