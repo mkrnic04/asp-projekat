@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BookReview.API/BookReview.API.csproj" />
+  <Project Path="BookReview.Application/BookReview.Application.csproj" />
+  <Project Path="BookReview.DataAccess/BookReview.DataAccess.csproj" />
+  <Project Path="BookReview.Domain/BookReview.Domain.csproj" />
+  <Project Path="BookReview.Implementation/BookReview.Implementation.csproj" />
+</Solution>
